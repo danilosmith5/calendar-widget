@@ -1,0 +1,66 @@
+/*Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap");
+body {
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  background-color: #1c1630;
+}
+body h1, body h2, body h3, body h4 {
+  font-weight: 200;
+}
+body h1 {
+  font-size: 5rem;
+}
+
+.widget-calendar {
+  max-width: 560px;
+  margin: 0 auto;
+  box-shadow: 0px 20px 30px 0.8 black;
+}
+.widget-calendar .widget-calendar-header {
+  background-color: rgb(65, 36, 131);
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+.widget-calendar .day {
+  font-size: 8em;
+  font-weight: 900;
+  line-height: 1em;
+}
+.widget-calendar .month {
+  font-size: 4em;
+  line-height: 1em;
+  text-transform: lowercase;
+}
+.widget-calendar .widget-calendar-days {
+  border-radius: 0px 0px 20px 20px;
+  background-color: #291e49;
+}
+.widget-calendar .widget-calendar-days table {
+  width: 100%;
+}
+.widget-calendar .widget-calendar-days thead {
+  color: rgb(116, 77, 207) !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.widget-calendar .widget-calendar-days td {
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #cacaca;
+}
+.widget-calendar .widget-calendar-days tbody td:hover {
+  background: #cacaca;
+  color: #fff;
+}
+.widget-calendar .current-day {
+  color: #826be6 !important;
+  font-weight: 500;
+}
+.widget-calendar .prev-month,
+.widget-calendar .next-month {
+  color: #8d7ae2 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
