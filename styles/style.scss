@@ -1,8 +1,6 @@
 /*Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
 
-
-
 body{
     background-color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +13,6 @@ body{
         font-size: 5rem;
     }
 }
-
 .widget-calendar{
     max-width: 560px;
     margin: 0 auto;
@@ -24,6 +21,7 @@ body{
         background-color: rgb(65, 36, 131);
         color: white;
         border-radius: 10px 10px 0px 0px;
+        cursor: default;
     }
 
     .day {
@@ -56,10 +54,12 @@ body{
         padding: .5em 1em;
         text-align: center;
         color: #cacaca;
+        transition: all 0.5s;
+        cursor: pointer;
     }
     
     .widget-calendar-days tbody td:hover {
-        background: #cacaca;
+        background: rgb(116, 77, 207) !important;
         color: #fff;
     }
     

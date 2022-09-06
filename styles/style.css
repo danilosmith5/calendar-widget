@@ -22,6 +22,7 @@ body h1 {
   background-color: rgb(65, 36, 131);
   color: white;
   border-radius: 10px 10px 0px 0px;
+  cursor: default;
 }
 .widget-calendar .day {
   font-size: 8em;
@@ -49,9 +50,11 @@ body h1 {
   padding: 0.5em 1em;
   text-align: center;
   color: #cacaca;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .widget-calendar .widget-calendar-days tbody td:hover {
-  background: #cacaca;
+  background: rgb(116, 77, 207) !important;
   color: #fff;
 }
 .widget-calendar .current-day {
